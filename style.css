@@ -1,0 +1,13 @@
+.main-container {
+    display: flex; /* This will place .background-img and .right-side side by side */
+}
+/* styling for the img and left background */
+.background-img {
+    justify-content: flex-start; /* Align items to the end of the container (right side in case of row direction) */
+    align-items: center; /* Align items vertically in the center */
+}
+
+.manga-meme {
+    max-width: 95%; /* Adjust the width as per your requirement */
+    height: 80vh; /* This will maintain the aspect ratio of the image */
+}
